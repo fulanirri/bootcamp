@@ -1,0 +1,20 @@
+package shoppingCart;
+
+public class Cash extends Payment {
+
+	@Override
+	public int discount(int total) {
+		super.getTotal()
+		return ;
+	}
+
+	
+	@Override
+	public String pay() {
+			return "payed by Cash";
+	}
+	
+	
+	
+
+}

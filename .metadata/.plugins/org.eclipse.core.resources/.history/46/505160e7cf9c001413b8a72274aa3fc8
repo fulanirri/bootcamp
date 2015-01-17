@@ -1,0 +1,11 @@
+package AudioPlayer;
+
+public interface AdvanceMediaPlayer {
+
+    public void playMp3(String fileName);
+    public void stopMp3(String fileName);
+    public void pauseMp3(String fileName);
+
+    public void playWma(String fileName);
+
+}

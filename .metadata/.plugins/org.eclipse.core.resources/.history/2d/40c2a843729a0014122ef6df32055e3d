@@ -1,0 +1,40 @@
+package shoppingCart;
+
+public class Cart {
+	
+	private Product[] products;
+	private Payment payment;
+	private Client client;
+	
+	//Constructor
+	
+	public Cart(Product[] productos, Client client) {
+		this.products = productos;
+		this.client = client;
+	}
+	
+	//getters & setters
+	
+	public Product[] getProducts() {
+		return products;
+	}
+	public void setProducts(Product[] productos) {
+		this.products = productos;
+	}
+	public Payment getPayment() {
+		return payment;
+	}
+	public void setPayment(Payment payment) {
+		this.payment = payment;
+	}
+	public Client getClient() {
+		return client;
+	}
+	public void setClient(Client client) {
+		this.client = client;
+	}
+	
+	
+	
+			
+}

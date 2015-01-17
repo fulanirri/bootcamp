@@ -1,0 +1,12 @@
+package shoppingCart;
+
+public abstract class Payment {
+	
+	private double total;
+	private int payId;
+	
+	public abstract int discount(int total);	
+	public abstract boolean pay();
+	
+
+}

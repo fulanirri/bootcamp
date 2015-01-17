@@ -1,0 +1,6 @@
+package KeyPoint3;
+
+public class SmallHospitalBuilder extends Hospital {
+	
+
+}

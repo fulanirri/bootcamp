@@ -1,0 +1,13 @@
+package composite;
+
+public abstract class Payment {
+
+    protected PaymentId  paymentId = new PaymentId();
+    
+
+    public abstract String pay(Order order);
+    public abstract String toString();
+    
+    
+
+}

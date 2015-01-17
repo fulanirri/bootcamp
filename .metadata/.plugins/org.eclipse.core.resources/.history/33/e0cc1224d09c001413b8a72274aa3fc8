@@ -1,0 +1,22 @@
+package AudioPlayer;
+
+public class WmaPlayer implements AdvanceMediaPlayer {
+    
+    
+    @Override
+    public void playMp3(String fileName) {
+
+     
+    }
+
+    @Override
+    public void playWma(String fileName) {
+        
+        System.out.println("Playing Wma track" + fileName);
+
+    }
+
+    
+    
+
+}

@@ -1,0 +1,24 @@
+package AudioPlayer;
+
+public class TestPlayer {
+    
+    public static void main(String[] args) { 
+    AudioFile song1Wma = new WmaCodec("Fight for your right to Party","3:30");
+    AudioFile song2Wma = new WmaCodec("Another brick in the wall","2:30");
+    AudioFile song3Wma = new WmaCodec("Californication","1:30");
+    AudioFile song4Wma = new WmaCodec("La mal peinada","5:30");
+    MusicPlayer winAmp = new MusicPlayer();
+    
+    winAmp.addSong(song1Wma);
+    winAmp.addSong(song2Wma);
+    winAmp.addSong(song3Wma);
+    winAmp.addSong(song4Wma);
+    
+    
+    winAmp.playList();
+    
+    
+    
+    
+    }
+}

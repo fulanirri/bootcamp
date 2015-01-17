@@ -1,0 +1,32 @@
+package Revisions;
+
+public class Building {
+
+	private final int rooms;
+	private final int bathrooms;
+	private final int kitchens;
+	private final int livingrooms;
+	private final int diningrooms;
+
+	public static class Builder {
+		private final int rooms;
+		private final int bathrooms;
+
+		private final int kitchens = 0;
+		private final int livingrooms = 0;
+		private final int diningrooms = 0;
+
+		public Builder(int rooms, int bathrooms) {
+			this.rooms = rooms;
+			this.bathrooms = bathrooms;
+
+		}
+		
+		public Builder kitchens(int value){
+			this.kitchens = value;
+			return this;
+		}
+
+	}
+
+}

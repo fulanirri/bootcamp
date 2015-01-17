@@ -1,0 +1,32 @@
+package shoppingCart;
+
+public abstract class Payment {
+	
+	private double total;
+	private int payId;
+	
+
+	
+	//Getters & setters
+	public double getTotal() {
+		return total;
+	}
+	public void setTotal(double total) {
+		this.total = total;
+	}
+	public int getPayId() {
+		return payId;
+	}
+	public void setPayId(int payId) {
+		this.payId = payId;
+	}
+	
+	//Methods
+	
+	public abstract double discount(double amount);
+//	public abstract double discount(Product[] product);
+	public abstract String pay();
+	
+	
+
+}

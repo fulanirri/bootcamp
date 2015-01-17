@@ -1,0 +1,14 @@
+package shoppingCart;
+
+public class Product {
+	
+	
+	private String itemName;
+	private String shortDscr;
+	private int 
+	
+	
+	
+	
+
+}

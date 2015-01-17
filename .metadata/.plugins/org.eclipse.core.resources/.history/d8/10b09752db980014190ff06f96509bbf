@@ -1,0 +1,19 @@
+package oopExercises.ej1_7;
+
+public class TestMyPolynomial {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		MyPolynomial p1 = new MyPolynomial(1.1, 2.2, 3.3);
+		
+		System.out.println(p1.getDegree());
+		
+		System.out.println(p1.toString());
+		
+		
+	}
+
+}

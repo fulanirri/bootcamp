@@ -1,0 +1,41 @@
+package Composite;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Item {
+    private String name;
+    private int itemId;
+    private double price;
+    private List<Item> promo;
+    
+    
+    //Constructor
+    public Item(String name,int itemId, double price){
+        this.name = name;
+        this.itemId = itemId;
+        this.price = price;
+        this.promo = new ArrayList<Item>();
+    }
+    
+    
+    //Methods
+    public void add(Item i){
+       this.promo.add(i);
+    }
+    
+    public void remove(Item i){
+        this.promo.remove(i);
+    }
+    
+    public List<Item> getPromo(){
+        return this.promo;
+    }
+    
+    public String toString(){
+        return "Name:"+name+" itemId:"+itemId+" Price:"+price;
+    }
+    
+    
+
+}

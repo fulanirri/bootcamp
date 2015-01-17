@@ -1,0 +1,27 @@
+package keyPoint2;
+
+
+public class BuildingDirector {
+
+	private Builder buildingBuilder = null;
+
+	public BuildingDirector(Builder buildingBuilder) {
+		this.buildingBuilder = buildingBuilder;
+	}
+
+	public void constructBuilding() {
+
+		buildingBuilder.buildBathrooms();
+		buildingBuilder.buildDiningrooms();
+		buildingBuilder.buildKitchens();
+		buildingBuilder.buildLivingrooms();
+		buildingBuilder.buildRooms();
+		buildingBuilder.buildType();
+
+	}
+
+	public Building getBuilding() {
+		return buildingBuilder.getBuilding();
+	}
+
+}

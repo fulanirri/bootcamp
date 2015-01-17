@@ -1,0 +1,50 @@
+package shoppingCart;
+
+public class PayPalPayment extends Payment {
+	
+	private String email;
+	private String password;
+
+	//getters & setters
+	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	@Override
+	public String pay(Cart cart) {
+		double max = cart.getProducts()[0].getPrice();
+		
+		double min = cart.getProducts()[0].getPrice();
+		
+		for (Product product : cart.getProducts()) {
+
+			if (product.getPrice() > max) {
+				max = product.getPrice();
+			}
+
+		}
+		
+		this.setTotal((cart.calculateTotal() - (max * 0.9)));
+		return null;
+	}
+	
+	//Methods
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

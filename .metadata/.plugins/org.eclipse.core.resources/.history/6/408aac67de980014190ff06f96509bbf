@@ -1,0 +1,22 @@
+package oopExercises.ej1_7;
+
+public class TestMyPolynomial {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+//		MyPolynomial p1 = new MyPolynomial(1, 2, 3,56,78,21,56,8,7,9,7,6);
+		
+		MyPolynomial p1 = new MyPolynomial("/tmp/coeffs");
+		
+		
+		System.out.println(p1.getDegree());
+		
+		System.out.println(p1.toString());
+		
+		
+	}
+
+}

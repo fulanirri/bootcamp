@@ -1,0 +1,21 @@
+package shoppingCart;
+
+public class CashPayment extends Payment {
+
+	
+	@Override
+	public double discount(double amount) {
+		
+		return this.getTotal() - (amount * 0.9);
+
+	}
+	
+	@Override
+	public String pay() {
+			return "payed by CashPayment";
+	}
+	
+	
+	
+
+}

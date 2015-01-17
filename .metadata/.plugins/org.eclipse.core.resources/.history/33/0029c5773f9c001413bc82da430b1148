@@ -1,0 +1,15 @@
+
+public class testSingleton {
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+       
+        Singleton index = new Singleton();
+        
+        System.out.println(index);
+
+    }
+
+}

@@ -1,0 +1,19 @@
+package composite;
+
+public abstract class Payment {
+
+    private PaymentId  paymentId;
+    
+    private Payment(){
+        
+        this.paymentId =  PaymentId.getInstance();
+        paymentId.newid();
+        
+    }
+     
+    public abstract String pay(Order order);
+    public abstract String toString();
+    
+    
+
+}

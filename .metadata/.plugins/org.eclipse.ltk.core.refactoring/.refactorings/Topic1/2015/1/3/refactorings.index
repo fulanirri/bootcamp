@@ -1,0 +1,31 @@
+1421067430018	Rename type 'Order'
+1421068219435	Encapsulate field 'price'
+1421069254698	Encapsulate field 'total'
+1421069271967	Encapsulate field 'payId'
+1421070911899	Change method 'discount'
+1421071233818	Encapsulate field 'creditCardNum'
+1421071243770	Encapsulate field 'name'
+1421073684271	Encapsulate field 'client'
+1421074378043	Rename type 'Cash'
+1421074399660	Rename type 'PayPal'
+1421074414703	Rename type 'CreditCard'
+1421076356016	Encapsulate field 'cart'
+1421076702185	Rename field 'productos'
+1421077463163	Encapsulate field 'totalToPay'
+1421089529492	Encapsulate field 'offerPrice'
+1421157362267	Rename field 'userId'
+1421157456462	Rename local variable 'userId'
+1421162369960	Delete element
+1421162373820	Delete element
+1421336163407	Delete element
+1421336180671	Rename package 'composite'
+1421336733251	Delete element
+1421366555711	Delete elements
+1421366592458	Delete element
+1421366898231	Rename type 'AudioFile'
+1421367073338	Rename type 'AudioPlayer'
+1421367083566	Rename type 'Mp3Player'
+1421367092351	Rename type 'WmaPlayer'
+1421368091041	Encapsulate field 'name'
+1421368748927	Rename type 'Mp3Codec'
+1421368758353	Rename type 'WmaCodec'

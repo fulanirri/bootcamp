@@ -1,0 +1,85 @@
+package KeyPoint3;
+
+public class SmallHospitalBuilder implements HospitalBuilder {
+	
+	private Hospital hospital;
+	
+	//Construtor
+	
+	public SmallHospitalBuilder(Hospital hospital){
+		this.setHospital(hospital);
+	}
+	
+	//Getters & Setters
+	
+	public Hospital getHospital() {
+		return hospital;
+	}
+
+	public void setHospital(Hospital hospital) {
+		this.hospital = hospital;
+	}
+
+	//Methods
+	
+	@Override
+	public void buildBedRooms() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buildDiagnostics() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buildTreatments() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buildTraumaCenter() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buildDentalCenter() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buildStaffRecidences() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buildParking() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buildWaitRooms() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buildFrontDesk() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}

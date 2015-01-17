@@ -1,0 +1,40 @@
+package composite;
+
+
+
+public class PaymentId {
+
+    private static PaymentId instance = null;
+
+    private int              index    = 0;
+
+    private PaymentId() {
+
+    }
+
+    public static PaymentId getInstance() {
+        if (instance == null) {
+
+            PaymentId.instance = new PaymentId();
+
+        }
+
+        return instance;
+    }
+
+    public int getIndex() {
+        return index;
+    }
+
+    public void setIndex(int index) {
+        this.index = index;
+    }
+
+    public int newIndex() {
+
+        this.setIndex(this.getIndex() + 1);
+
+        return this.getIndex();
+    }
+
+}

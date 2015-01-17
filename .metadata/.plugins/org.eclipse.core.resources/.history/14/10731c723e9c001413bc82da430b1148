@@ -1,0 +1,35 @@
+
+public class Singleton {
+
+    private static Singleton instance = null;
+    
+    private int index;
+    
+    
+    private Singleton(){
+        
+        if(this.getInstance() == null){
+            
+            index=0;
+            this.instance = new Singleton(); 
+            
+        }
+        
+     
+    }
+    
+    
+    public Singleton getInstance(){
+        return instance;
+    }
+    
+    public void setInstnce(Singleton instance){
+        this.instance = instance;
+    }
+    
+    
+    
+    
+    
+    
+}

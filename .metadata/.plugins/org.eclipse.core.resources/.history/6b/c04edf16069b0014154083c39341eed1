@@ -1,0 +1,20 @@
+package Revisions;
+
+public class test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Building casita = new Building.Builder(2, 1).kitchens(1).livingrooms(1).diningrooms(1).build();
+		
+		System.out.println(casita);
+		
+		Building casita = new Building.Builder(3, 1).kitchens(1).livingrooms(1).diningrooms(1).build();
+		
+
+	}
+	
+	
+
+}

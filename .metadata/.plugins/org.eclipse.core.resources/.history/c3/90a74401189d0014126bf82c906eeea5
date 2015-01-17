@@ -1,0 +1,5 @@
+package AudioPlayer;
+
+public class Mp3Codec {
+
+}

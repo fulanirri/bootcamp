@@ -1,0 +1,29 @@
+package KeyPoint3;
+
+public class SmallHospitalBuilder implements HospitalBuilder {
+	
+	private Hospital hospital;
+	
+	//Construtor
+	
+	public SmallHospitalBuilder(Hospital hospital){
+		this.setHospital(hospital);
+	}
+	
+	//Getters & Setters
+	
+	public Hospital getHospital() {
+		return hospital;
+	}
+
+	public void setHospital(Hospital hospital) {
+		this.hospital = hospital;
+	}
+	
+	
+	
+	
+	
+	
+
+}

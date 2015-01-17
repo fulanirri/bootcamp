@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;Singleton.index&apos; in &apos;Singleton&apos;&#x0A;- Original project: &apos;Pruebas&apos;&#x0A;- Original element: &apos;Singleton.index&apos;&#x0A;- Getter method name: &apos;getIndex&apos;&#x0A;- Setter method name: &apos;setIndex&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;index&apos;" flags="589830" getter="getIndex" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;{Singleton.java[Singleton^index" insertion="1" setter="setIndex" stamp="1421275304320" version="1.0" visibility="1"/>
+</session>

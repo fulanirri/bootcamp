@@ -1,0 +1,22 @@
+package shoppingCart;
+
+public class CashPayment extends Payment {
+
+	@Override
+	public String pay(Cart cart) {
+
+		double max = cart.getProducts()[0].getPrice();
+
+		for (Product product : cart.getProducts()) {
+
+			if (product.getPrice() > max) {
+				max = product.getPrice();
+			}
+
+		}
+
+		return "Payed By Cash has 90% off on expensieve item your total with discout is" + (this.getTotal() - (max * 0.1));
+
+	}
+
+}

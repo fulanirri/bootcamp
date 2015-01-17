@@ -1,0 +1,24 @@
+package Composite;
+
+public class CashPayment extends Payment {
+
+    @Override
+    public String pay(Order order) {
+
+        double discount = order.getListOfItem().get(0).getPrice();
+
+        for (Item item : order.getListOfItem()) {
+
+            if (item.getPrice() > discount) {
+                discount = item.getPrice();
+            }
+
+        }
+
+        discount = order.getTotal() - discount * 0.1;
+
+        return "payed by Cash has 90% off on the most expensive item\nnew total:"
+                + discount;
+    }
+
+}

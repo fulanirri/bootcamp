@@ -1,0 +1,46 @@
+1420763852994	Delete element
+1420772374351	Delete element
+1420772510474	Encapsulate field 'radius'
+1420772516854	Encapsulate field 'color'
+1420773263678	Move compilation units
+1420775756897	Delete element
+1420775849766	Encapsulate field 'name'
+1420775856938	Encapsulate field 'email'
+1420775864364	Encapsulate field 'gender'
+1420813884522	Rename local variable 'side12'
+1420813895135	Rename local variable 'side23'
+1420813905163	Rename local variable 'side32'
+1420814572911	Delete element
+1420818388023	Rename package 'com.oopExercises.ej1_5'
+1420818402480	Rename package 'com.oopExercises.ej1_4'
+1420818420929	Rename package 'com.oopExercises.ej1_3'
+1420818432501	Rename package 'com.oopExercises.ej1_2'
+1420818446050	Rename package 'com.oopExercises.ej1_1'
+1420838900264	Rename type 'TestMyComplex'
+1420844495394	Rename package 'oopExersices.ej1_6'
+1420901457969	Rename type 'MyPolinomial'
+1420901651329	Delete element
+1420908402584	Extract local variable 'sum2'
+1420933994601	Infer generic type arguments
+1420936246955	Rename type 'Casa'
+1420936671686	Rename type 'Edificio'
+1420936778795	Rename field 'diningroom'
+1420937193355	Rename method 'buildLiningrooms'
+1420937739720	Rename type 'HouseBuldingBuilder'
+1420938386609	Rename package 'keyPoint2'
+1420938444531	Rename package 'keyPoint2_3'
+1420987917085	Rename type 'HouseBuildingBuilder'
+1420988000469	Rename type 'BigHouseBuildingBuilder'
+1421009573144	Delete element
+1421010004281	Delete element
+1421010026238	Rename type 'Buildon'
+1421010102474	Rename type 'Building'
+1421010559972	Rename type 'HospitalBuilding'
+1421010579528	Delete element
+1421011773646	Encapsulate field 'type'
+1421011867002	Encapsulate field 'name'
+1421012000386	Rename type 'SmallHospitalBuilder'
+1421012088739	Rename type 'SatanEmergencyHospitalBuilder'
+1421012135277	Rename type 'FirstAidsHospitalBuilder'
+1421013828518	Delete element
+1421014338573	Rename field 'staffRecidences'

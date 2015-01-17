@@ -1,0 +1,10 @@
+package KeyPoint3;
+
+public class TestHospital {
+	
+	HospitalBuilder hospitalBuilder = new FirstAidHospitalBuilder();
+	
+	
+	
+
+}

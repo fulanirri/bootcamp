@@ -1,0 +1,21 @@
+1421097902278	Rename type 'KeyPoint2fork'
+1421097913227	Delete element
+1421097931246	Move compilation unit
+1421097948003	Move compilation unit
+1421097956582	Move file
+1421097991616	Move compilation unit
+1421097998192	Copy compilation unit
+1421141015085	Rename type 'BuildingBuilder'
+1421163954059	Rename type 'Component'
+1421163986891	Delete element
+1421164082097	Delete element
+1421167330874	Delete element
+1421194918318	Rename type 'DemoItem'
+1421207988568	Rename field 'promo'
+1421209050514	Rename local variable 'a'
+1421210917098	Rename field 'creditCardNumber'
+1421211912775	Rename local variable 'max'
+1421213128603	Rename type 'creditCardPayment'
+1421285309437	Rename package 'Composite'
+1421286066050	Encapsulate field 'paymentId'
+1421336148055	Move package

@@ -1,0 +1,13 @@
+package Composite;
+
+public class CashPayment extends Payment {
+    
+    
+    @Override
+    public String pay(Order order) {
+            return "payed by Cash has 90% off on the most expensive item";
+    }
+    
+    
+
+}

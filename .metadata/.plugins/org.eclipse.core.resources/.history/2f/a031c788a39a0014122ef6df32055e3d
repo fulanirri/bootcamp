@@ -1,0 +1,21 @@
+package Revisions;
+
+public class Building {
+
+	private final int rooms;
+	private final int kitchens;
+	private final int bathrooms;
+	private final int livingrooms;
+	private final int diningrooms;
+	private final String type;
+	
+	public static class Builder{
+		private final int rooms;
+		private final int bathrooms;
+		
+		
+		
+		
+	}
+	
+}

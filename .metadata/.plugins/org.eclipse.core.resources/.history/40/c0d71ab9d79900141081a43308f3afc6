@@ -1,0 +1,166 @@
+package KeyPoint3;
+
+public class SmallHospitalBuilder extends Hospital {
+	
+	private Hospital hospital;
+	
+	//Constructor
+	public SmallHospitalBuilder (Hospital hospital){
+		this.setHospital(hospital);
+	}
+
+	
+	//getters & setters
+	public Hospital getHospital() {
+		return hospital;
+	}
+
+	public void setHospital(Hospital hospital) {
+		this.hospital = hospital;
+	}
+		
+	
+	@Override
+	public int getBedRooms() {
+		// TODO Auto-generated method stub
+		return super.getBedRooms();
+	}
+
+	@Override
+	public void setBedRooms(int bedRooms) {
+		// TODO Auto-generated method stub
+		super.setBedRooms(bedRooms);
+	}
+
+	@Override
+	public int getDiagnostics() {
+		// TODO Auto-generated method stub
+		return super.getDiagnostics();
+	}
+
+	@Override
+	public void setDiagnostics(int diagnostics) {
+		// TODO Auto-generated method stub
+		super.setDiagnostics(diagnostics);
+	}
+
+	@Override
+	public int getTreatments() {
+		// TODO Auto-generated method stub
+		return super.getTreatments();
+	}
+
+	@Override
+	public void setTreatments(int treatments) {
+		// TODO Auto-generated method stub
+		super.setTreatments(treatments);
+	}
+
+	@Override
+	public int getTraumaCenter() {
+		// TODO Auto-generated method stub
+		return super.getTraumaCenter();
+	}
+
+	@Override
+	public void setTraumaCenter(int traumaCenter) {
+		// TODO Auto-generated method stub
+		super.setTraumaCenter(traumaCenter);
+	}
+
+	@Override
+	public int getDentalCenter() {
+		// TODO Auto-generated method stub
+		return super.getDentalCenter();
+	}
+
+	@Override
+	public void setDentalCenter(int dentalCenter) {
+		// TODO Auto-generated method stub
+		super.setDentalCenter(dentalCenter);
+	}
+
+	@Override
+	public int getStaffRecidences() {
+		// TODO Auto-generated method stub
+		return super.getStaffRecidences();
+	}
+
+	@Override
+	public void setStaffRecidences(int staffRecidences) {
+		// TODO Auto-generated method stub
+		super.setStaffRecidences(staffRecidences);
+	}
+
+	@Override
+	public int getParking() {
+		// TODO Auto-generated method stub
+		return super.getParking();
+	}
+
+	@Override
+	public void setParking(int parking) {
+		// TODO Auto-generated method stub
+		super.setParking(parking);
+	}
+
+	@Override
+	public int getWaitRooms() {
+		// TODO Auto-generated method stub
+		return super.getWaitRooms();
+	}
+
+	@Override
+	public void setWaitRooms(int waitRooms) {
+		// TODO Auto-generated method stub
+		super.setWaitRooms(waitRooms);
+	}
+
+	@Override
+	public int getFrontDesk() {
+		// TODO Auto-generated method stub
+		return super.getFrontDesk();
+	}
+
+	@Override
+	public void setFrontDesk(int frontDesk) {
+		// TODO Auto-generated method stub
+		super.setFrontDesk(frontDesk);
+	}
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return super.equals(obj);
+	}
+
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		super.finalize();
+	}
+
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+
+
+
+
+
+}

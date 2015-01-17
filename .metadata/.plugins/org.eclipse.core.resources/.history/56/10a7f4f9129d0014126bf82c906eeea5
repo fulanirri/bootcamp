@@ -1,0 +1,43 @@
+package AudioPlayer;
+
+public class Mp3Player implements AdvanceMediaPlayer {
+    
+    
+    
+
+    @Override
+    public void playMp3(String fileName) {
+
+        System.out.println("Playing Mp3 track" + fileName);
+
+    }
+
+    @Override
+    public void stopMp3(String fileName) {
+        System.out.println("Stop Mp3 track" + fileName);
+        
+    }
+
+    @Override
+    public void pauseMp3(String fileName) {
+        System.out.println("Pause Mp3 track" + fileName);
+        
+    }
+
+    @Override
+    public void stopWma(String fileName) {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void pauseWma(String fileName) {
+        // TODO Auto-generated method stub
+        
+    }
+    @Override
+    public void playWma(String fileName) {
+
+    }
+
+}

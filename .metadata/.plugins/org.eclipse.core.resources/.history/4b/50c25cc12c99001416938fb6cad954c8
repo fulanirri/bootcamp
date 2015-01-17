@@ -1,0 +1,18 @@
+package keyPoint2;
+
+public class TestBuilder {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		
+		BuildingBuilder buildingBuilder = HouseBuildingBuilder();
+		BuildingDirector buildingDirector = new BuildingDirector(buildingBuilder);
+		
+		
+		
+	}
+
+}

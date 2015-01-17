@@ -1,0 +1,11 @@
+package Composite;
+
+public abstract class Payment {
+
+    private int    paymentId;
+    
+
+    public abstract String pay(Cart car);
+    public abstract double calcDiscount(double amount);
+
+}

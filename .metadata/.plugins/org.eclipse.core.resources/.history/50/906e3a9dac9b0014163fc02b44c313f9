@@ -1,0 +1,11 @@
+package Composite;
+
+public abstract class Payment {
+
+    private int    paymentId;
+    
+
+    public abstract String pay(Order order);
+   
+
+}

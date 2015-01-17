@@ -1,0 +1,43 @@
+package shoppingCart;
+
+public class CashPayment extends Payment {
+
+	
+	
+	public double findMax(Product[] products) {
+		
+		double max = products[0].getPrice();
+		
+	
+		for(Product product : products){
+			
+			if(product.getPrice()>max){
+				
+				max = product.getPrice();
+				
+			}
+			
+		}
+		
+		return max - 90;
+
+	}
+	
+	@Override
+	public String pay() {
+			return "payed by CashPayment";
+	}
+
+	@Override
+
+	public double discount(double amount) {
+		
+		return this.getTotal()- amount;
+	}
+
+	
+	
+	
+	
+
+}

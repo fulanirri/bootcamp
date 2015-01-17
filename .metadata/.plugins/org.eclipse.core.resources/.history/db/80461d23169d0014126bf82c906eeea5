@@ -1,0 +1,13 @@
+package AudioPlayer;
+
+public class TestPlayer {
+    
+    
+    AudioFile song1Wma = new WmaCodec("Fight for your right to Party","3:30");
+    AudioFile song2Wma = new WmaCodec("Fight for your right to Party","3:30");
+    AudioFile song3Wma = new WmaCodec("Fight for your right to Party","3:30");
+    AudioFile song4Wma = new WmaCodec("Fight for your right to Party","3:30");
+    
+    
+
+}

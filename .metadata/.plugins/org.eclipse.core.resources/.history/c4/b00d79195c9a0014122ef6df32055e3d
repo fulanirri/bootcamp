@@ -1,0 +1,71 @@
+package shoppingCart;
+
+public class Client {
+	
+	private String mail;
+	private int userId;
+	private int name;
+	private int lastName;
+	private int phoneNumber;
+	
+	//Constructor
+	
+	public Client(String mail, int userId, int name, int lastName, int phoneNumber) {
+		this.mail = mail;
+		this.userId = userId;
+		this.name = name;
+		this.lastName = lastName;
+		this.phoneNumber = phoneNumber;
+	}
+	
+	//Getters & Setters
+
+	public String getMail() {
+		return mail;
+	}
+
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
+
+	public int getUserId() {
+		return userId;
+	}
+
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}
+
+	public int getName() {
+		return name;
+	}
+
+	public void setName(int name) {
+		this.name = name;
+	}
+
+	public int getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(int lastName) {
+		this.lastName = lastName;
+	}
+
+	public int getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public void setPhoneNumber(int phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+	
+	
+	//Methods
+	
+	
+	
+	
+	
+
+}

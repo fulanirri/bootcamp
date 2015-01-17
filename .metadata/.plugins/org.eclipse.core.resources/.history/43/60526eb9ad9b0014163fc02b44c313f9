@@ -1,0 +1,51 @@
+package Composite;
+
+public class creditCardPayment extends Payment {
+
+    private int    creditCardNum;
+    private String name;
+    
+    
+    
+    //Constructor
+    public creditCardPayment(int creditCardNum, String name) {
+        this.creditCardNum = creditCardNum;
+        this.name = name;
+    }
+
+    //Getters & Setters
+    public int getCreditCardNum() {
+        return creditCardNum;
+    }
+
+    public void setCreditCardNum(int creditCardNumber) {
+        this.creditCardNum = creditCardNumber;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    //Methods
+    
+    @Override
+    public String pay(Order order) {
+        
+        double discount = order.getTotal()*0.9;
+        return "Payed by CreditCardPayment has 10% off number:" + this.creditCardNum
+                + " Owner:" + this.getName()+" new total:"+discount;
+    }
+
+    @Override
+    public String toString() {
+        
+        return "Credit Card";
+    }
+    
+
+   
+}

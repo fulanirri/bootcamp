@@ -1,0 +1,35 @@
+package AudioPlayer;
+
+public class WmaCodec implements AudioFile {
+    
+    private String fileName;
+    private String duration;
+    
+    public WmaCodec(String fileName, String duration){
+       this.fileName = fileName;
+       this.duration = duration;
+    }
+    
+    public WmaCodec()
+    @Override
+    public String play() {
+        
+        return "playing Wma File";
+    }
+
+    @Override
+    public String stop() {
+        
+        return "Stopping Wma File";
+    }
+
+    @Override
+    public String pause() {
+        
+        return "Pause Wma File";
+    }
+    
+    
+    
+
+}

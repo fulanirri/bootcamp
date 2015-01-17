@@ -1,0 +1,17 @@
+package Composite;
+
+public class creditCardPayment extends Payment {
+
+    @Override
+    public String pay() {
+
+        return null;
+    }
+
+    @Override
+    public double calcDiscount(double amount) {
+        
+        return amount*0.9;
+    }
+
+}

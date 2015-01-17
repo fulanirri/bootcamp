@@ -1,0 +1,60 @@
+package AudioPlayer;
+
+import java.util.ArrayList;
+
+public class MusicPlayer {
+    
+    public ArrayList<AudioFile> songList = new ArrayList<AudioFile>();
+    private String name;
+    
+    
+    
+    public MusicPlayer(String name){
+        
+        ;
+    }
+    
+    
+    public MusicPlayer() {
+        this.setName("WinAmp");
+        }
+
+
+    public void addSong(AudioFile song){
+        songList.add(song);
+    }
+    
+    public void removeSong(AudioFile song){
+        songList.remove(song);
+    }
+    
+    public void playList(){
+        
+        for(AudioFile song : songList){
+            System.out.println(song.play());
+        }
+        
+    }
+    
+    public void stopList(){
+        
+        
+        
+    }
+    
+
+
+    public String getName() {
+        return name;
+    }
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    
+    
+
+}
+

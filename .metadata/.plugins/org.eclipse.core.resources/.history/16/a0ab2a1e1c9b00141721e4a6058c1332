@@ -1,0 +1,31 @@
+package keyPoint2;
+
+
+public interface Builder  {
+	
+//	final int rooms = 0;
+//	final int kitchens = 0;
+//	final int bathrooms = 0;
+//	final int livingrooms = 0;
+//	final int diningrooms = 0;
+//	final String type = null;
+//	
+
+	public Builder buildRooms(int value){
+	    
+		return 
+	};
+
+	public void buildDiningrooms();
+
+	public void buildKitchens();
+
+	public void buildLivingrooms();
+
+	public void buildBathrooms();
+
+	public void buildType();
+
+	public Building getBuilding();
+
+}

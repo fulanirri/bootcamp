@@ -1,0 +1,20 @@
+package composite;
+
+public abstract class Payment {
+
+    private PaymentId  paymentId;
+    
+    
+     
+    public abstract String pay(Order order);
+    public abstract String toString();
+    
+    
+    public PaymentId getPaymentId() {
+        return paymentId;
+    }
+    public void setPaymentId(PaymentId paymentId) {
+        this.paymentId = paymentId;
+    }
+
+}

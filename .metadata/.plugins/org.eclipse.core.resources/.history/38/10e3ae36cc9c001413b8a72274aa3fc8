@@ -1,0 +1,40 @@
+package shoppingCart;
+
+public class PayPal extends Payment {
+	
+	private String email;
+	private String password;
+
+	//getters & setters
+	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
+	//Methods
+	
+	@Override
+	public double discount(double amount) {
+		
+		return this.getTotal()-amount;
+	}
+	@Override
+	public String pay() {
+		
+		return "payed by paypal by the email"+this.getEmail();
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,19 @@
+package AudioPlayer;
+
+public class MediaAdapter implements MediaPlayer {
+
+    AdvanceMediaPlayer advancedMusicPlayer;
+
+    @Override
+    public void play(String audioType) {
+        if (audioType.equalsIgnoreCase("mp3")) {
+            advancedMusicPlayer = new Mp3Player();
+        } else if (audioType.equalsIgnoreCase("Wma")) {
+            advancedMusicPlayer = new WmaPlayer();
+        }
+        
+    }
+
+   
+
+}

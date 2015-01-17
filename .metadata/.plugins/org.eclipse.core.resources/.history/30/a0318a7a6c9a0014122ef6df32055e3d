@@ -1,0 +1,18 @@
+package shoppingCart;
+
+public class TestShoppingCart {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Client client1 =  new Client ("ger@ger.com",1, "German", "Martinez", "555-12345");
+		Payment payment = new Payment();
+		
+		
+		
+
+	}
+
+}

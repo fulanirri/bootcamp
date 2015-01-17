@@ -1,0 +1,18 @@
+package shoppingCart;
+
+public abstract class Payment {
+	
+	private double total;
+	private int payId;
+	
+	public abstract int discount(int total);	
+	public abstract String pay();
+	public double getTotal() {
+		return total;
+	}
+	public void setTotal(double total) {
+		this.total = total;
+	}
+	
+
+}

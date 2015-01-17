@@ -1,0 +1,8 @@
+package AudioPlayer;
+
+public interface AdvanceMediaPlayer {
+    
+    public void playMp3();
+    public void playWma();
+
+}

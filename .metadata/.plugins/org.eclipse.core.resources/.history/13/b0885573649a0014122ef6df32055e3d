@@ -1,0 +1,47 @@
+package shoppingCart;
+
+public class CreditCard extends Payment {
+	
+	
+	private int creditCardNum;
+	private String name;
+	
+	
+	public CreditCard(double total, int payId) {
+		super(total, payId);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	//getters & setters
+	public int getCreditCardNum() {
+		return creditCardNum;
+	}
+	public void setCreditCardNum(int creditCardNum) {
+		this.creditCardNum = creditCardNum;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	@Override
+	public double discount(double amount) {
+		
+		return 0;
+	}
+	@Override
+	public String pay() {
+		// TODO Auto-generated method stub
+		return "Payed by CreditCard number:"+ this.creditCardNum+" Owner:"+this.getName();
+	}
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,11 @@
+package AudioPlayer;
+
+public interface MediaPlayer {
+
+    public void play(String audioType);
+
+    public void stop(String audioFile);
+
+    public void pause(String audioFile);
+
+}

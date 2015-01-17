@@ -1,0 +1,22 @@
+package Composite;
+
+import java.awt.List;
+
+public class Item {
+    private String name;
+    private int itemId;
+    private double price;
+    private List<Item> promo;
+    
+    
+    //Constructor
+    public Item(String name,int itemId, double price){
+        this.name = name;
+        this.itemId = itemId;
+        this.price = price;
+        this.promo = new ArrayList<Item>();
+    }
+    
+    
+
+}

@@ -1,0 +1,123 @@
+package oopExercises.ej1_7;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class MyPolynomial {
+
+	private double[] coeffs;
+
+	// Constructor
+
+	public MyPolynomial(double... coeffs) {
+		this.coeffs = coeffs;
+	}
+
+	public MyPolynomial(String filename) {
+
+		Scanner in = null;
+		try {
+			in = new Scanner(new File(filename));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		int degree = in.nextInt();
+
+		coeffs = new double[degree];
+
+		for (int i = 0; i < coeffs.length; ++i) {
+
+			coeffs[i] = in.nextDouble();
+
+		}
+	}
+
+	// Getters & Setters
+
+	public double[] getCoeffs() {
+		return coeffs;
+	}
+
+	public void setCoeffs(double[] coeffs) {
+		this.coeffs = coeffs;
+	}
+
+	// Methods
+
+	public int getDegree() {
+
+		return this.getCoeffs().length;
+	}
+
+	public String toString() {
+		String a = "P(x) = ";
+		int i = 1;
+		for (double coeff : this.coeffs) {
+			a += Double.toString(coeff) + " * x^" + i + " + ";
+			i++;
+		}
+		return a += "0";
+	}
+
+	public double evaluate(double x) {
+
+		int evaluated = 0;
+		int i = 1;
+
+		for (double coeff : this.getCoeffs()) {
+			evaluated += x * Math.pow(coeff, i);
+			i++;
+		}
+		return evaluated;
+	}
+
+	public MyPolynomial add(MyPolynomial another) {
+
+		
+		double [] sum;
+		
+		int i = 1;
+
+		// this if, evaluate which array is the longest,
+		// because the polynomial with the highest degree have more
+		// coefficients.
+
+		if (another.getCoeffs().length > this.coeffs.length) {
+			
+			int length = coeffs.length;
+			
+			 
+			sum[0]=0;
+			
+			for (double coeff : this.getCoeffs()) {
+
+				sum[i] = coeff + another.getCoeffs()[i];
+
+				i++;
+			}
+			//
+			// }
+			//
+			// else
+			//
+			//
+			//
+			// {
+			//
+			// for (double coeff : another.getCoeffs()) {
+			// sum[i] = coeff + this.getCoeffs()[i];
+			// i++;
+			//
+			// }
+			//
+			// }
+
+			return new MyPolynomial(sum);
+
+		}
+
+	}
+}

@@ -1,0 +1,10 @@
+package Composite;
+
+public abstract class Payment {
+
+    final int    paymentId;
+    final double discount;
+
+    public abstract String pay();
+
+}

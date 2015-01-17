@@ -1,0 +1,69 @@
+package Composite;
+
+import java.util.ArrayList;
+
+public class Order {
+    
+    private int orderId;
+    private ArrayList <Item> listOfItem;
+    private double total;
+    
+    
+    //Constructor
+    
+    public Order(){
+        
+        this.listOfItem = new ArrayList<Item>();
+        
+    }
+    
+  //getters & setters
+
+    public int getOrderId() {
+        return orderId;
+    }
+
+
+    public void setOrderId(int orderId) {
+        this.orderId = orderId;
+    }
+
+
+    public ArrayList<Item> getListOfItem() {
+        return listOfItem;
+    }
+
+
+    public void setListOfItem(ArrayList<Item> listOfItem) {
+        this.listOfItem = listOfItem;
+    }
+
+
+    public double getTotal() {
+        
+        for(Item item : listOfItem){
+            
+            total = total + item.getPrice();
+            
+        }
+        
+        
+        return total;
+    }
+
+
+    public void setTotal(double total) {
+        this.total = total;
+    }
+    
+    //methods
+    
+    
+    
+    
+    
+    
+    
+    
+
+}

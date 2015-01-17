@@ -1,0 +1,18 @@
+package shoppingCart;
+
+public class Offers extends Product {
+	
+	
+	
+	public Offers(int itemId, String itemName, double price, double offerPrice) {
+		super(itemId, itemName, price);
+		this.offerPrice = offerPrice;
+	}
+
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,28 @@
+package AudioPlayer;
+
+public class MediaAdapter implements MediaPlayer {
+
+    AdvanceMediaPlayer advanceMusicPlayer;
+
+    @Override
+    public void play(String audioType) {
+        if(audioType.equalsIgnoreCase("vSlc") ){
+            advancedMusicPlayer = new VlcPlayer();         
+         } else if (audioType.equalsIgnoreCase("mp4")){
+            advancedMusicPlayer = new Mp4Player();
+         } 
+        
+
+    }
+
+    @Override
+    public void stop() {
+
+    }
+
+    @Override
+    public void pause() {
+
+    };
+
+}
